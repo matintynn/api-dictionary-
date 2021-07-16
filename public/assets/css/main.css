@@ -1,0 +1,185 @@
+/*------------- Core ------------ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {outline:none}
+
+body{
+    background: linear-gradient(to right top, #49a4ff, #70ffe5) no-repeat;
+    color: rgb(89, 89, 89);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*------------- Dictionary board ------------ */
+#main_board{
+    background: white;
+    background: linear-gradient(
+        to right bottom, 
+        rgba(255, 255, 255, 0.6), 
+        rgba( 255, 255, 255, 0.2)
+    );
+    width: 90%;
+    height: 90vh;
+    margin-top: 2em;
+    backdrop-filter: blur( 12.5px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.434);
+    padding: 2em;
+}
+
+#main_board  h1{
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(89, 89, 89);
+    text-shadow: 1px 3px 0 rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 1em;
+    letter-spacing: 1px;
+}
+
+/* Stype form */
+form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+form .btn{
+    background: linear-gradient(
+        to right bottom, 
+        rgba(255, 255, 255, 0.4), 
+        rgba( 255, 255, 255, 0.2)
+    );
+    box-shadow: 0 8px 22px 0 rgba(31, 38, 135, 0.029);
+    color: rgb(89, 89, 89);
+    height: 35px;
+    width: 150px;
+    margin-left: .5em;
+    outline: none;
+    border: none;
+}
+
+form .btn:focus{
+    outline: none;
+    border: none;
+}
+
+form #input{
+    background: linear-gradient(
+        to right bottom, 
+        rgba(255, 255, 255, 0.4), 
+        rgba( 255, 255, 255, 0.3)
+    );
+    box-shadow: 0 8px 22px 0 rgba(31, 38, 135, 0.029);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    height: 35px;
+    padding-left: 1em;
+    color: rgb(70, 70, 70);
+}
+
+
+div.board{
+    background: linear-gradient(
+        to right bottom, 
+        rgba(255, 255, 255, 0.3), 
+        rgba( 255, 255, 255, 0.1)
+    );
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 8px 22px 0 rgba(31, 38, 135, 0.057);
+    display: none;
+}
+
+div.board li{
+    margin-left: 1.2em;
+    margin-top: 1em;
+}
+
+.speaker{
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.square{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(110, 19, 255);
+    right: 0.9em;
+    top: 1.2em;
+    z-index: -1;
+    animation: change 2s ease-in infinite;
+}
+
+.circle{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 140, 0);
+    bottom: 1.2em;
+    left: 7em;
+    z-index: -1;
+    animation: change 2.5s ease-in infinite;
+    transition: 1s ease-in;
+}
+
+@keyframes change{
+    0%   {transform: translateY(0em);}
+    50%  {transform: translateY(0.5em);}
+    100% {transform: translateY(0em);}
+}
+
+@media only screen and (min-width: 860px){
+    body{
+        background: rgb(238,174,202);
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    }
+
+    #main_board{
+        width: 50%;
+    }
+
+    .square{
+        right: 13em;
+    }
+
+    .circle{
+        left: 18em;
+    }
+}
+
+@media only screen and (min-width: 1060px){
+    body{
+        background: rgb(113,245,246);
+        background: linear-gradient(22deg, rgba(113,245,246,1) 0%, rgba(255,198,254,1) 68%, rgba(255,228,189,1) 100%);
+    }
+
+    #main_board{
+        width: 35%;
+    }
+
+    #main_board h1{
+        color: rgb(89, 89, 89);
+        text-shadow: 1px 3px 0 rgb(255, 255, 255);
+    }
+
+    .square{
+        right: 28em;
+    }
+
+    .circle{
+        left: 32em;
+    }
+}

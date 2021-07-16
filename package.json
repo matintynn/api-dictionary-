@@ -1,0 +1,13 @@
+{
+  "name": "amanda-webtemplate",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "lite-server --baseDir='public'"
+  },
+  "author": "Matin",
+  "private": true,
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
