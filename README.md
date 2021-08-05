@@ -1,4 +1,4 @@
-# api-dictionary-1
+# API-Dictionary
 
 ![dictionary-api-img](https://github.com/matintynn/api-dictionary-1/blob/master/dictionary-api.png)
 
