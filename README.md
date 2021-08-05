@@ -1,6 +1,6 @@
 # api-dictionary-1
 
-![dictionary-api-img](https://todo-app.salanlee.repl.co/)
+![dictionary-api-img](https://github.com/matintynn/api-dictionary-1/blob/master/dictionary-api.png)
 
 --Technologies:
 👉 HTML, CSS, JavaScript, API
