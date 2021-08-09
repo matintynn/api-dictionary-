@@ -6,8 +6,8 @@
 👉 HTML, CSS, JavaScript, API
 
 ### Leanred:
--How to fetch data from API
--DOM manipulation
+* How to fetch data from API
+* DOM manipulation
 
 ### Live application
 👉 https://Dictionary-API.salanlee.repl.co
