@@ -2,7 +2,7 @@
 
 ![dictionary-api-img](https://github.com/matintynn/api-dictionary-1/blob/master/dictionary-api.png)
 
-### echnologies:
+### Technologies:
 👉 HTML, CSS, JavaScript, API
 
 ### Leanred:
