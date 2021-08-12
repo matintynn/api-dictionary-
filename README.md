@@ -8,6 +8,7 @@
 ### Leanred:
 * How to fetch data from API
 * DOM manipulation
+* CSS animation
 
 ### Live application
 👉 https://Dictionary-API.salanlee.repl.co
