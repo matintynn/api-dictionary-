@@ -2,7 +2,10 @@
 
 ![dictionary-api-img](https://github.com/matintynn/api-dictionary-1/blob/master/dictionary-api.png)
 
-### Technologies:
+### Description 
+To build this project, I used merriam-webster api to get the english vocabulary data. I then display the data to the browser nicely by using CSS/SASS.
+
+### Stack:
 👉 HTML, CSS, JavaScript, API
 
 ### Leanred:
